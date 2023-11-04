@@ -7,7 +7,7 @@ from rest_framework import status
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from car.models import Car
 from car.serializers import CarSerializer
-
+# car/views.py
 class ListCreateCarView(ListCreateAPIView):
     model = Car
     serializer_class = CarSerializer
